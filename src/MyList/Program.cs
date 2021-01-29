@@ -17,9 +17,9 @@ namespace MyList
             myList.Add(20);
             myList.Add(40);
             myList.Add(70);
-            //Console.WriteLine(myList.Length);
+            Console.WriteLine(myList.Length);
             myList.Add(20);
-            //Console.WriteLine(myList.Length);
+            Console.WriteLine(myList.Length);
             Console.ReadKey();
         }
     }

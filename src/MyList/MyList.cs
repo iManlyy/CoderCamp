@@ -25,9 +25,9 @@ namespace MyList
             _array[_array.Length - 1] = item;
         }
 
-        //public int Length
-        //{
-        //    get { return _array.Length; }
-        //}
+        public int Length
+        {
+            get { return _array.Length; }
+        }
     }
 }
