@@ -9,6 +9,9 @@ namespace MyList
     {
         public static void Main(string[] args)
         {
+            List<string> hazirListe = new List<string> { "fghfg", "skjsj", "cvcv", "qwe", "asd" };
+            Console.WriteLine(hazirListe[2]);
+            Console.ReadKey();
         }
     }
 }
