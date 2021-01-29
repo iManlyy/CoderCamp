@@ -14,8 +14,7 @@ namespace MyList
         }
         public void Add(T item)
         {
-            T [] tempArray = new T[0];
-            tempArray = _array;
+            T[] tempArray = _array;
             _array = new T[_array.Length + 1];
             for (int i = 0; i < tempArray.Length; i++)
             {
